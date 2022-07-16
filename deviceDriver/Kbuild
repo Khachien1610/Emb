@@ -1,0 +1,6 @@
+#cd /home/pi/embedded/deviceDriver
+#vim Kbuild
+
+EXTRA_CFLAGS = -Wall
+
+obj-m        = test.o
